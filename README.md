@@ -23,6 +23,7 @@ A simple discord music bot using the [DiscordGo](https://github.com/bwmarrin/dis
 Create a `config.json` file in the project root using this template:
 ```json
 {
+	"prefix": "your bot prefix",
 	"bot_token": "Bot your-bot-token",
 	"owner_id": "your user id",
 	"use_sharding": false,
@@ -32,16 +33,18 @@ Create a `config.json` file in the project root using this template:
 ```
 
 ## Commands
-| Command           | Description                                                   |
-|-------------------|---------------------------------------------------------------|
-| music help        | shows all available commands                                  |
-| music join        | joins your current voice channel (must be in a voice channel) |
-| music play [file] | plays a music file                                            |
-| music stop        | stops playing the current song                                |
-| music leave       | leaves the voice channel                                      |
-| music eval [code] | runs javascript (bot owner only)                              |
-| music info        | shows bot info and statistics                                 |
-| music stopbot     | stops the bot (bot owner only)                                |
+|----------------------|---------------------------------------------------------------|
+| Command              | Description                                                   |
+|----------------------|---------------------------------------------------------------|
+| <prefix> help        | shows all available commands                                  |
+| <prefix> join        | joins your current voice channel (must be in a voice channel) |
+| <prefix> play [file] | plays a music file                                            |
+| <prefix> stop        | stops playing the current song                                |
+| <prefix> leave       | leaves the voice channel                                      |
+| <prefix> eval [code] | runs javascript (bot owner only)                              |
+| <prefix> info        | shows bot info and statistics                                 |
+| <prefix> stopbot     | stops the bot (bot owner only)                                |
+|----------------------|---------------------------------------------------------------|
 
 ## Support
 This is not for public use. If you don't know GO I do not recommend using this and I will not provide support for that.
